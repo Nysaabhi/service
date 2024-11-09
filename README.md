@@ -703,8 +703,6 @@
                 Deep AI Assistant
             </div>
             <div class="chat-actions">
-                <button class="clear-chat">
-                    <i class="fas fa-trash"></i>
                 </button>
             </div>
         </div>
@@ -786,9 +784,6 @@
                 <button class="select-input" id="categoryButton">
                     <i class="fas fa-th-large"></i>
                 </button>
-                <button class="location-input">
-                    <i class="fas fa-map-marker-alt"></i>
-                </button>
                 <button class="send-message" id="sendButton">
                     <i class="fas fa-paper-plane"></i>
                 </button>
@@ -839,9 +834,9 @@
 
     <nav class="bottom-nav">
         <div class="nav-container">
-            <div class="nav-item active" data-page="maintenance">
-                <i class="fas fa-tools"></i>
-                <span>Services</span>
+            <div class="nav-item active" data-page="subscription">
+                <i class="fas fa-user-check"></i>
+                <span>Subscription</span>
             </div>
             <div class="nav-item" data-page="deals">
                 <i class="fas fa-ticket-alt"></i>
@@ -855,9 +850,9 @@
                 <i class="fas fa-calendar-alt"></i>
                 <span>Bookings</span>
             </div>
-            <div class="nav-item" data-page="profile">
-                <i class="fas fa-user"></i>
-                <span>Profile</span>
+            <div class="nav-item" data-page="location">
+                <i class="fas fa-location"></i>
+                <span>Location</span>
             </div>
         </div>
     </nav>
