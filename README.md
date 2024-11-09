@@ -683,6 +683,21 @@
         .gap-2 {
             gap: 8px;
         }
+
+                body > h1:first-of-type:not(.heading) {
+          display: none !important;
+        }
+        
+        /* Alternative method if the above doesn't work */
+        .markdown-body h1:first-child {
+          display: none !important;
+        }
+        
+        /* If the number appears in a different container */
+        .position-relative h1:first-child {
+          display: none !important;
+        }
+
     </style>
 </head>
 <body>
