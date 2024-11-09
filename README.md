@@ -703,7 +703,6 @@
                 Deep AI Assistant
             </div>
             <div class="chat-actions">
-                </button>
             </div>
         </div>
 
